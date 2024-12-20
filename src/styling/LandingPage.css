@@ -1,0 +1,119 @@
+.cta-section {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+.cta-section h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.services-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: var(--white);
+}
+
+.services-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  padding: 25px;
+  background-color: var(--white);
+  border-radius: 8px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.service-item .service-icon {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.service-item h3 {
+  font-size: 1.8em;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1.1em;
+  color: var(--secondary-color);
+}
+
+.signup-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: var(--white);
+}
+
+.signup-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.signup-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  width: 500px;
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-form input {
+  width: 400px;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+.signup-button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: var(--button-background);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 430px;
+  transition: background-color 0.3s;
+}
