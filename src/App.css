@@ -1,7 +1,7 @@
 :root {
   --primary-color: #000000;
   --secondary-color: #333333;
-  --background-color: #f1f1f1;
+  --background-color: #fff;
   --button-background: #000000;
   --button-hover-background: #333333;
   --text-color: #333;
@@ -12,7 +12,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: var(--background-color);
+  background-color: var(--background-color) !important;
   color: var(--text-color);
 }
 
