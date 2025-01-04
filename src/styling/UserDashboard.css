@@ -1,0 +1,122 @@
+.dashboard-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: var(--black);
+}
+
+.dashboard-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-section {
+  margin-bottom: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.dashboard-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.overview-grid {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.overview-item {
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.overview-item h3 {
+  margin-bottom: 10px;
+}
+
+.update-income-section form,
+.add-expense-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.update-income-section button,
+.add-expense-section button {
+  width: fit-content;
+  padding: 10px 20px;
+  align-self: center;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.update-income-section input,
+.add-expense-section input,
+.add-expense-section select {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.insights-section {
+  text-align: center;
+}
+
+.financial-overview-section .financial-charts {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.chart-container {
+  text-align: center;
+  flex: 1;
+}
+
+.dashboard-section.financial-overview-section {
+  padding: 20px;
+}
+
+.financial-charts {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.chart-container {
+  flex: 1;
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  height: 380px;
+}
+
+.chart-container canvas {
+  flex-grow: 1;
+  max-height: 300px;
+  max-width: 100%;
+  aspect-ratio: 1;
+}
+
+.chart-container h3 {
+  margin-bottom: 5px;
+}
