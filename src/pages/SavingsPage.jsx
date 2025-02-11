@@ -7,7 +7,7 @@ function Savings() {
         { id: 1, fund: "Vacation Fund", amount: 200 },
         { id: 2, fund: "Emergency Fund", amount: 100 },
         { id: 3, fund: "Retirement Fund", amount: 300 },
-        { id: 4, fund: "Vacation Fund", amount: 150 }, // Äldre bidrag
+        { id: 4, fund: "Vacation Fund", amount: 150 },
     ]);
 
     const [showForm, setShowForm] = useState(false);
@@ -24,7 +24,7 @@ function Savings() {
                 amount: parseInt(newAmount),
             };
 
-            setContributions([newContribution, ...contributions]); // Lägger till det nya bidraget i början
+            setContributions([newContribution, ...contributions]);
             setShowForm(false);
             setNewFund("");
             setNewAmount("");
