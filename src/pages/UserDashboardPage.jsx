@@ -72,23 +72,6 @@ function UserDashboard() {
         </form>
       </section>
 
-      <section className="dashboard-section add-expense-section">
-        <h2>Add an Expense</h2>
-        <form>
-          <input type="number" placeholder="Expense amount" />
-          <select>
-            <option value="">Select category</option>
-            <option value="food">Food</option>
-            <option value="rent">Rent</option>
-            <option value="utilities">Utilities</option>
-            <option value="savings">Savings</option>
-            <option value="investments">Investments</option>
-            <option value="other">Other</option>
-          </select>
-          <button type="submit">Add Expense</button>
-        </form>
-      </section>
-
       <section className="dashboard-section insights-section">
         <h2>Data Insights & Tips</h2>
         <p>
