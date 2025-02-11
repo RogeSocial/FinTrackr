@@ -10,6 +10,7 @@ import {
 import LandingPage from './pages/LandingPage';
 import UserDashboardPage from './pages/UserDashboardPage';
 import Expenses from './pages/ExpensesPage';
+import Savings from './pages/SavingsPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route index element={<LandingPage/>} />
       <Route path="/dashboard" element={<UserDashboardPage/>} />
       <Route path="/expenses" element={<Expenses/>} />
+      <Route path="/savings" element={<Savings/>} />
     </Route>
   )
 )
