@@ -9,7 +9,7 @@ function Footer() {
       <ul className="footer-links">
         <li><Link to="/dashboard">Dashboard</Link></li>
         <li><Link to="/expenses">Expenses</Link></li>
-        <li><Link to="/">Savings</Link></li>
+        <li><Link to="/savings">Savings</Link></li>
         <li><Link to="/">Investments</Link></li>
       </ul>
     </footer>

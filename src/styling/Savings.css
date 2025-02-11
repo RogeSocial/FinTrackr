@@ -1,0 +1,100 @@
+.savings-container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.savings-container h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.savings-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.savings-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.add-goal-btn {
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.goal-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.goal-card {
+    width: 200px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.edit-goal-btn, .delete-goal-btn {
+    margin: 5px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contribution-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contribution-form select,
+.contribution-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contribution-form button {
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contribution-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.contribution-card {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
