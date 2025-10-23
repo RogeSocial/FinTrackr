@@ -26,7 +26,7 @@ function Investments() {
                 </div>
             </div>
         </section>
-        {/* Test */}
+        
         <section className="recent-investments">
             <h2>Recent Investments</h2>
             <div className="recent-invest-container">
