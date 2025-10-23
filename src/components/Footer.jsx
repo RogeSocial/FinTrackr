@@ -10,7 +10,7 @@ function Footer() {
         <li><Link to="/dashboard">Dashboard</Link></li>
         <li><Link to="/expenses">Expenses</Link></li>
         <li><Link to="/savings">Savings</Link></li>
-        <li><Link to="/">Investments</Link></li>
+        <li><Link to="/investments">Investments</Link></li>
       </ul>
     </footer>
   );

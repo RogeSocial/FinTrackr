@@ -11,6 +11,7 @@ import LandingPage from './pages/LandingPage';
 import UserDashboardPage from './pages/UserDashboardPage';
 import Expenses from './pages/ExpensesPage';
 import Savings from './pages/SavingsPage';
+import Investments from './pages/InvestmentPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route path="/dashboard" element={<UserDashboardPage/>} />
       <Route path="/expenses" element={<Expenses/>} />
       <Route path="/savings" element={<Savings/>} />
+      <Route path="/investments" element={<Investments/>} />
     </Route>
   )
 )
